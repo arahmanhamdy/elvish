@@ -1,6 +1,6 @@
 package eval
 
-import "github.com/elves/elvish/parse"
+import "github.com/arahmanhamdy/elvish/parse"
 
 func (cp *compiler) chunkOp(n *parse.Chunk) Op {
 	cp.compiling(n)

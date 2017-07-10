@@ -1,8 +1,8 @@
 package edit
 
 import (
-	"github.com/elves/elvish/edit/ui"
-	"github.com/elves/elvish/eval"
+	"github.com/arahmanhamdy/elvish/edit/ui"
+	"github.com/arahmanhamdy/elvish/eval"
 )
 
 // Raw insert mode is a special mode, in that it does not use the normal key

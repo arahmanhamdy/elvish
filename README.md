@@ -1,9 +1,9 @@
 # A friendly and expressive Unix shell
 
-[![GoDoc](http://godoc.org/github.com/elves/elvish?status.svg)](http://godoc.org/github.com/elves/elvish)
+[![GoDoc](http://godoc.org/github.com/arahmanhamdy/elvish?status.svg)](http://godoc.org/github.com/arahmanhamdy/elvish)
 [![Build Status on Travis](https://travis-ci.org/elves/elvish.svg?branch=master)](https://travis-ci.org/elves/elvish)
 [![Coverage Status](https://coveralls.io/repos/github/elves/elvish/badge.svg?branch=master)](https://coveralls.io/github/elves/elvish?branch=master)
-[![Go Report Card](https://goreportcard.com/badge/github.com/elves/elvish)](https://goreportcard.com/report/github.com/elves/elvish)
+[![Go Report Card](https://goreportcard.com/badge/github.com/arahmanhamdy/elvish)](https://goreportcard.com/report/github.com/arahmanhamdy/elvish)
 [![License](https://img.shields.io/badge/License-BSD%202--Clause-orange.svg)](https://opensource.org/licenses/BSD-2-Clause)
 
 [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/elves/elvish-public)
@@ -39,7 +39,7 @@ To build Elvish, you need
 Elvish is a go-gettable package. To build Elvish, first set up your Go workspace according to [How To Write Go Code](http://golang.org/doc/code.html), and then run
 
 ```sh
-go get github.com/elves/elvish
+go get github.com/arahmanhamdy/elvish
 ```
 
 ### The Lazy Way
@@ -51,7 +51,7 @@ export GOPATH=$HOME/go
 export PATH=$PATH:$GOPATH/bin
 mkdir -p $GOPATH
 
-go get github.com/elves/elvish
+go get github.com/arahmanhamdy/elvish
 
 for f in ~/.bashrc ~/.zshrc; do
     printf 'export %s=%s\n' GOPATH '$HOME/go' PATH '$PATH:$GOPATH/bin' >> $f

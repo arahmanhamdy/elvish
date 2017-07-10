@@ -6,8 +6,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/elves/elvish/parse"
-	"github.com/elves/elvish/util"
+	"github.com/arahmanhamdy/elvish/parse"
+	"github.com/arahmanhamdy/elvish/util"
 )
 
 func throw(e error) {

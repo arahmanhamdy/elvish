@@ -5,8 +5,8 @@ import (
 	"regexp"
 	"strconv"
 
-	"github.com/elves/elvish/eval"
-	"github.com/elves/elvish/util"
+	"github.com/arahmanhamdy/elvish/eval"
+	"github.com/arahmanhamdy/elvish/util"
 	"github.com/xiaq/persistent/vector"
 )
 

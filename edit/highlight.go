@@ -3,10 +3,10 @@ package edit
 import (
 	"os"
 
-	"github.com/elves/elvish/edit/highlight"
-	"github.com/elves/elvish/eval"
-	"github.com/elves/elvish/parse"
-	"github.com/elves/elvish/util"
+	"github.com/arahmanhamdy/elvish/edit/highlight"
+	"github.com/arahmanhamdy/elvish/eval"
+	"github.com/arahmanhamdy/elvish/parse"
+	"github.com/arahmanhamdy/elvish/util"
 )
 
 func doHighlight(n parse.Node, ed *Editor) {

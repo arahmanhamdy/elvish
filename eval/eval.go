@@ -19,11 +19,11 @@ import (
 	"syscall"
 	"unicode/utf8"
 
-	"github.com/elves/elvish/daemon"
-	"github.com/elves/elvish/daemon/api"
-	"github.com/elves/elvish/parse"
-	"github.com/elves/elvish/sys"
-	"github.com/elves/elvish/util"
+	"github.com/arahmanhamdy/elvish/daemon"
+	"github.com/arahmanhamdy/elvish/daemon/api"
+	"github.com/arahmanhamdy/elvish/parse"
+	"github.com/arahmanhamdy/elvish/sys"
+	"github.com/arahmanhamdy/elvish/util"
 )
 
 var logger = util.GetLogger("[eval] ")

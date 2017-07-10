@@ -5,9 +5,9 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/elves/elvish/edit/ui"
-	"github.com/elves/elvish/eval"
-	"github.com/elves/elvish/util"
+	"github.com/arahmanhamdy/elvish/edit/ui"
+	"github.com/arahmanhamdy/elvish/eval"
+	"github.com/arahmanhamdy/elvish/util"
 )
 
 func TestComplIndexInner(t *testing.T) {

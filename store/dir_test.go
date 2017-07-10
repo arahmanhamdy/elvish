@@ -4,7 +4,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/elves/elvish/store/storedefs"
+	"github.com/arahmanhamdy/elvish/store/storedefs"
 )
 
 var (

@@ -3,7 +3,7 @@ package edit
 import (
 	"errors"
 
-	"github.com/elves/elvish/eval"
+	"github.com/arahmanhamdy/elvish/eval"
 )
 
 // The $edit:completer map, and its default values.

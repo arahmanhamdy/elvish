@@ -3,9 +3,9 @@ package edit
 import (
 	"strings"
 
-	"github.com/elves/elvish/edit/nodeutil"
-	"github.com/elves/elvish/eval"
-	"github.com/elves/elvish/parse"
+	"github.com/arahmanhamdy/elvish/edit/nodeutil"
+	"github.com/arahmanhamdy/elvish/eval"
+	"github.com/arahmanhamdy/elvish/parse"
 )
 
 // Utilities for insepcting the AST. Used for completers and stylists.

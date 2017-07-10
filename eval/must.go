@@ -3,7 +3,7 @@ package eval
 import (
 	"strconv"
 
-	"github.com/elves/elvish/parse"
+	"github.com/arahmanhamdy/elvish/parse"
 )
 
 type muster struct {

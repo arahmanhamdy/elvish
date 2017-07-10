@@ -4,9 +4,9 @@ import (
 	"strings"
 	"unicode/utf8"
 
-	"github.com/elves/elvish/eval"
-	"github.com/elves/elvish/getopt"
-	"github.com/elves/elvish/parse"
+	"github.com/arahmanhamdy/elvish/eval"
+	"github.com/arahmanhamdy/elvish/getopt"
+	"github.com/arahmanhamdy/elvish/parse"
 )
 
 func complGetopt(ec *eval.EvalCtx, a []eval.Value, o map[string]eval.Value) {

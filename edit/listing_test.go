@@ -6,7 +6,7 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/elves/elvish/edit/ui"
+	"github.com/arahmanhamdy/elvish/edit/ui"
 )
 
 type provider struct {

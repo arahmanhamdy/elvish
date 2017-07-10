@@ -1,9 +1,9 @@
 package edit
 
 import (
-	"github.com/elves/elvish/edit/ui"
-	"github.com/elves/elvish/eval"
-	"github.com/elves/elvish/parse"
+	"github.com/arahmanhamdy/elvish/edit/ui"
+	"github.com/arahmanhamdy/elvish/eval"
+	"github.com/arahmanhamdy/elvish/parse"
 )
 
 func getBinding(mode string, k ui.Key) eval.CallableValue {

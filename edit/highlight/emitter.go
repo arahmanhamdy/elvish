@@ -3,9 +3,9 @@ package highlight
 import (
 	"strings"
 
-	"github.com/elves/elvish/edit/nodeutil"
-	"github.com/elves/elvish/edit/ui"
-	"github.com/elves/elvish/parse"
+	"github.com/arahmanhamdy/elvish/edit/nodeutil"
+	"github.com/arahmanhamdy/elvish/edit/ui"
+	"github.com/arahmanhamdy/elvish/parse"
 )
 
 type Emitter struct {

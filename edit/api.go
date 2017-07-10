@@ -6,8 +6,8 @@ import (
 	"os"
 	"sync"
 
-	"github.com/elves/elvish/edit/ui"
-	"github.com/elves/elvish/eval"
+	"github.com/arahmanhamdy/elvish/edit/ui"
+	"github.com/arahmanhamdy/elvish/eval"
 )
 
 // This file implements types and functions for interactions with the

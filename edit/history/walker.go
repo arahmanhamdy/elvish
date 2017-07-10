@@ -4,7 +4,7 @@ import (
 	"errors"
 	"strings"
 
-	"github.com/elves/elvish/store/storedefs"
+	"github.com/arahmanhamdy/elvish/store/storedefs"
 )
 
 var ErrEndOfHistory = errors.New("end of history")

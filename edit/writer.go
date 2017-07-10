@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/elves/elvish/sys"
+	"github.com/arahmanhamdy/elvish/sys"
 )
 
 var logWriterDetail = false

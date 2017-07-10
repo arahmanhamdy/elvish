@@ -1,8 +1,8 @@
 package edit
 
 import (
-	"github.com/elves/elvish/edit/ui"
-	"github.com/elves/elvish/eval"
+	"github.com/arahmanhamdy/elvish/edit/ui"
+	"github.com/arahmanhamdy/elvish/eval"
 )
 
 func styled(ec *eval.EvalCtx, args []eval.Value, opts map[string]eval.Value) {

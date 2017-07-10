@@ -3,8 +3,8 @@ package edit
 import (
 	"testing"
 
-	"github.com/elves/elvish/eval"
-	"github.com/elves/elvish/util"
+	"github.com/arahmanhamdy/elvish/eval"
+	"github.com/arahmanhamdy/elvish/util"
 )
 
 func TestBuiltinFn(t *testing.T) {

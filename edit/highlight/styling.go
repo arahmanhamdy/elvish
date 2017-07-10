@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"sort"
 
-	"github.com/elves/elvish/edit/ui"
+	"github.com/arahmanhamdy/elvish/edit/ui"
 )
 
 // Preparing and applying styling.

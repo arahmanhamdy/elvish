@@ -5,7 +5,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/elves/elvish/edit/ui"
+	"github.com/arahmanhamdy/elvish/edit/ui"
 )
 
 var (
