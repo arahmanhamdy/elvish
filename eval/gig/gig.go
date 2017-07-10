@@ -15,7 +15,9 @@ var fns = []*eval.BuiltinFn{
 }
 
 func gigTest(ec *eval.EvalCtx, args []eval.Value, opts map[string]eval.Value) {
-
-	print(ec, args, opts)
-	//ec.ports[1].File.WriteString("\n")
+	out := ec.ports[1].File
+	for _, arg := range args {
+		out.WriteString(arg.Repr(0))
+		out.WriteString("\n")
+	}
 }
