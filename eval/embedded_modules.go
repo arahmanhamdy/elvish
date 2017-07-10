@@ -1,6 +1,11 @@
 package eval
 
 var embeddedModules = map[string]string{
+	"gig": `fn lscolor {
+e:ls --color $@ 
+}
+
+`,
 	"narrow": `fn location {
     candidates = [(dir-history | each {
 	score = (splits $0[score] &sep=. | take 1)
