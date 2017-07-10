@@ -1,7 +1,7 @@
 package eval
 
 var embeddedModules = map[string]string{
-	"gig": `fn lscolor {
+	"gigaddon": `fn lscolor {
 e:ls --color $@ 
 }
 
