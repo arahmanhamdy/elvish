@@ -11,14 +11,13 @@ func Namespace() eval.Namespace {
 }
 
 var fns = []*eval.BuiltinFn{
-	{"gigtest", gigTest},
+	{"print", gigPrint},
 }
 
-func gigTest(ec *eval.EvalCtx, args []eval.Value, opts map[string]eval.Value) {
+func gigPrint(ec *eval.EvalCtx, args []eval.Value, opts map[string]eval.Value) {
 
 	out := ec.OutputChan()
 	for _, arg := range args {
 		out <- eval.String(arg.Repr(0))
-		out <- eval.String("\n")
 	}
 }
