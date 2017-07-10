@@ -3,12 +3,12 @@ package gig
 import (
 	"github.com/arahmanhamdy/elvish/eval"
 )
-//
-//func Namespace() eval.Namespace {
-//	ns := eval.Namespace{}
-//	eval.AddBuiltinFns(ns, fns...)
-//	return ns
-//}
+
+func Namespace() eval.Namespace {
+	ns := eval.Namespace{}
+	eval.AddBuiltinFns(ns, fns...)
+	return ns
+}
 
 var fns = []*eval.BuiltinFn{
 	{"gigtest", gigTest},

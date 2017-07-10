@@ -23,6 +23,7 @@ import (
 	"github.com/arahmanhamdy/elvish/daemon/service"
 	"github.com/arahmanhamdy/elvish/eval"
 	"github.com/arahmanhamdy/elvish/eval/re"
+	"github.com/arahmanhamdy/elvish/eval/gig"
 	"github.com/arahmanhamdy/elvish/shell"
 	"github.com/arahmanhamdy/elvish/store/storedefs"
 	"github.com/arahmanhamdy/elvish/util"
@@ -238,6 +239,7 @@ spawnDaemonEnd:
 	// TODO(xiaq): This information might belong somewhere else.
 	extraModules := map[string]eval.Namespace{
 		"re": re.Namespace(),
+		"gig": gig.Namespace(),
 	}
 	return eval.NewEvaler(cl, toSpawn, dataDir, extraModules), cl
 }
